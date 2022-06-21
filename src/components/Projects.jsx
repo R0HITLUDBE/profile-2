@@ -55,7 +55,7 @@ const Projects = () => {
         link={"https://github.com/R0HITLUDBE/cryptocurrency-price-prediction"}
         img={Crypto}
         descr={
-          " Movies are fetched from themoviedb api. User can search movies and realtime suggestions will be made. User can add, update, remove movies in Watched or Watchlist section."
+          " The application uses LSTM to predict the prices of crypto currency based on the historical data available on Yahoo Finance. The application predicts the price based on the dates provided by the user for any crypto currency viz. Bitcoin, Etherium etc."
         }
         subH={"Machine Learning"}
       />
