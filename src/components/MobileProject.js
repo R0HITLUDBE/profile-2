@@ -34,17 +34,17 @@ const MobileProject = ({
       </div>
       <div className="flex mx-auto ">
         <img
-          className="h-[200px] md:h-[600px]  mx-3 my-10 rounded "
+          className="h-[200px] md:h-[400px] lg:h-[600px]  mx-3 my-10 rounded "
           src={img1}
           alt=""
         />
         <img
-          className="h-[200px] md:h-[600px]  mx-3 my-10 rounded "
+          className="h-[200px] md:h-[400px] lg:h-[600px]  mx-3 my-10 rounded "
           src={img2}
           alt=""
         />
         <img
-          className="h-[200px] md:h-[600px]  mx-3 my-10 rounded "
+          className="h-[200px] md:h-[400px] lg:h-[600px]  mx-3 my-10 rounded "
           src={img3}
           alt=""
         />

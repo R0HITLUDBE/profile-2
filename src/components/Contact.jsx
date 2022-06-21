@@ -5,6 +5,7 @@ import pdf from "../assests/RohitLudbe_Resume1.pdf";
 const Contact = () => {
   return (
     <div className="w-full bg-white pb-16 md:px-10" id="contact">
+      <hr className="border h-0  mb-20" />
       <div className="flex flex-col">
         <h1 className="text-4xl font-bold py-2 px-3">Contact</h1>
         <div className="mt-5">
