@@ -5,11 +5,11 @@ const SingleProject = ({ title, keySkills, link, img, descr, subH }) => {
   return (
     <div className="max-w-[1240px] mx-auto grid grid-rows-auto ">
       <div className="grid md:grid-cols-2 ">
-        <div className="md:w-[500px] md:mx-auto my-2 mx-10">
+        <div className="md:w-[500px] md:mx-auto my-2 mx-3">
           <h1 className="md:text-5xl text-3xl font-bold py-2">{title}</h1>
           <p className="md:text-lg font-light text-gray-600 ">{subH}</p>
         </div>
-        <div className="flex flex-col justify-center mx-10 ">
+        <div className="flex flex-col justify-center md:mx-10 mx-3 ">
           <p className="text-lg mb-3">
             <span className="font-bold ">Key Skills:</span>
             {keySkills}
