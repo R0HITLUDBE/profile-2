@@ -3,9 +3,12 @@ import Hulu from "../assests/Hulu.png";
 import WatchList from "../assests/watchlist.png";
 import Crypto from "../assests/price_prediction.png";
 import Slack from "../assests/slack.png";
-import Calorie from "../assests/Screenshot_1650537291.png";
+import Calorie1 from "../assests/Screenshot_1650537404.png";
+import Calorie2 from "../assests/Screenshot_1650537486.png";
+import Calorie3 from "../assests/Screenshot_1650537414.png";
 
 import SingleProject from "./SingleProject";
+import MobileProject from "./MobileProject";
 
 const Projects = () => {
   return (
@@ -16,11 +19,13 @@ const Projects = () => {
           Projects
         </h1>
       </div>
-      <SingleProject
+      <MobileProject
         title={"Calorie Counter"}
         keySkills={" React Native, Python, Firebase, Machine Learning"}
         link={"https://github.com/R0HITLUDBE/calorie-counter"}
-        img={Hulu}
+        img1={Calorie1}
+        img2={Calorie2}
+        img3={Calorie3}
         descr={
           " User can keep track of food and calorie intake for promoting weight loss. Simplified process of tracking calories burnt. Beneficial for user to monitor progress."
         }
