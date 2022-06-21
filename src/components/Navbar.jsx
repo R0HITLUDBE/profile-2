@@ -3,7 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
 
   const handleNav = () => {
     setNav(!nav);
@@ -21,6 +21,9 @@ const Navbar = () => {
         <HashLink smooth to="#projects">
           <li className="p-4 cursor-pointer">Projects</li>
         </HashLink>
+        <HashLink smooth to="#skills">
+          <li className="p-4 cursor-pointer">Skills</li>
+        </HashLink>
         <HashLink smooth to="#contact">
           <li className="p-4 cursor-pointer">Contact</li>
         </HashLink>
@@ -29,12 +32,12 @@ const Navbar = () => {
         onClick={handleNav}
         className="block md:hidden cursor-pointer p-3 z-10 "
       >
-        {!nav ? null : <AiOutlineMenu size={20} />}
+        {nav === false ? null : <AiOutlineMenu size={20} />}
       </div>
 
       <div
         className={
-          !nav
+          nav === false
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 md:hidden"
             : "fixed left-[-100%]"
         }
@@ -47,7 +50,7 @@ const Navbar = () => {
             onClick={handleNav}
             className="block md:hidden cursor-pointer p-5 z-10 "
           >
-            {!nav ? <AiOutlineClose size={20} /> : null}
+            {nav === false ? <AiOutlineClose size={20} /> : null}
           </div>
         </div>
         <ul className="p-4 uppercase ">
@@ -59,6 +62,11 @@ const Navbar = () => {
           <HashLink smooth to="#projects">
             <li className="p-4 border-b border-gray-600 cursor-pointer">
               Projects
+            </li>
+          </HashLink>
+          <HashLink smooth to="#skills">
+            <li className="p-4 border-b border-gray-600 cursor-pointer">
+              Skills
             </li>
           </HashLink>
           <HashLink smooth to="#contact">
