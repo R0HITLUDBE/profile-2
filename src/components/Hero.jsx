@@ -8,8 +8,12 @@ const Hero = () => {
     <div className="px-4">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <div className=" grid md:grid-cols-2">
-//           
-           <div className="flex flex-col justify-center">
+          {/* <img
+            className="w-[250px] md:w-[350px] mx-auto my-4"
+            src={HeroImage}
+            alt=""
+          /> */}
+          <div className="flex flex-col justify-center">
             <video
               className="w-[250px] md:w-[350px] mx-auto  "
               autoPlay
@@ -20,7 +24,7 @@ const Hero = () => {
               <source src={HeroImage} type="video/mp4" />
             </video>
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-end">
             <h1 className="text-[#00df9a] md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
               Hello!
             </h1>
