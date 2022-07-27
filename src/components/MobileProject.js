@@ -26,7 +26,7 @@ const MobileProject = ({
             <span className="font-bold "> Description:</span>
             {descr}
           </p>
-          <a href={link} className="flex align-center md:text-2xl mt-5">
+          <a href={link} target="_blank" rel="noopener noreferrer" className="flex align-center md:text-2xl mt-5">
             <span className="mr-2"> View Project </span>{" "}
             <BsArrowRight size={30} color="#00df9a" />
           </a>
