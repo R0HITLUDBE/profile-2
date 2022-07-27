@@ -6,6 +6,7 @@ import Slack from "../assests/slack.png";
 import Calorie1 from "../assests/Screenshot_1650537404.png";
 import Calorie2 from "../assests/Screenshot_1650537486.png";
 import Calorie3 from "../assests/Screenshot_1650537414.png";
+import SlackDark from "../assests/slack-dark.png";
 
 import SingleProject from "./SingleProject";
 import MobileProject from "./MobileProject";
@@ -52,6 +53,17 @@ const Projects = () => {
           " Movies are fetched from themoviedb api. User can search movies and realtime suggestions will be made. User can add, update, remove movies in Watched or Watchlist section."
         }
         subH={"WEBAPP"}
+      />
+      <hr className="border h-0 m-20" />
+          <SingleProject
+        title={"Slack Website UI"}
+        keySkills={" ReactJS, React-router-dom, Tailwind css, react-icons."}
+        link={"https://et88qp.csb.app/login"}
+        img={SlackDark}
+        descr={
+          "Dark mode of Slack using react and tailwind css. Basic UI is implemented and react router dom is used for navigation."
+        }
+        subH={"RESPONSIVE UI"}
       />
       <hr className="border h-0 m-20" />
       <SingleProject
