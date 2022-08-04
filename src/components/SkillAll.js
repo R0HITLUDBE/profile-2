@@ -8,6 +8,7 @@ import Node from "../assests/nodejs.png";
 import Next from "../assests/nextjs.svg";
 import Mongodb from "../assests/mongodb.svg";
 import firebase from "../assests/google-firebase.svg";
+import SkillIndividual from "./SkillIndividual";
 
 const SkillAll = () => {
   return (
@@ -19,49 +20,18 @@ const SkillAll = () => {
       </div>
       <div className="grid grid-flow-row mx-20 ">
         <div className=" grid md:grid-flow-col gap-5">
-          <div className="p-3 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-14 text-center" src={Html} alt="" />
-            <p>HTML</p>
-          </div>
-          <div className="p-5 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-14 text-center" src={Css} alt="" />
-            <p>CSS</p>
-          </div>
-          <div className="p-5 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-14 text-center" src={Js} alt="" />
-            <p>JS</p>
-          </div>
-          <div className="p-5 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-14 text-center" src={REACT} alt="" />
-            <p>REACT JS</p>
-          </div>
-          <div className="p-5 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-14 text-center" src={Next} alt="" />
-            <p>NEXT JS</p>
-          </div>
+          <SkillIndividual image={Html} title="HTML" />
+          <SkillIndividual image={Css} title="CSS" />
+          <SkillIndividual image={Js} title="JS" />
+          <SkillIndividual image={REACT} title="REACT JS" />
+          <SkillIndividual image={Next} title="NEXT JS" />
         </div>
         <div className=" grid md:grid-flow-col gap-5 mt-5">
-          <div className="p-5 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-14 text-center" src={REACT} alt="" />
-            <p>REACT NATIVE</p>
-          </div>
-          <div className="p-5 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-10 text-center" src={Express} alt="" />
-            <p>EXPRESS JS</p>
-          </div>
-          <div className="p-5 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-14 text-center" src={Node} alt="" />
-            <p>NODE JS</p>
-          </div>
-          <div className="p-5 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight hover:duration-200 cursor-pointer">
-            <img className="h-14 text-center" src={Mongodb} alt="" />
-            <p>MONGODB</p>
-          </div>
-
-          <div className="p-3 grid grid-flow-col items-center border shadow-md rounded-lg hover:-tracking-tight cursor-pointer">
-            <img className="h-14 text-center" src={firebase} alt="" />
-            <p>FIREBASE</p>
-          </div>
+          <SkillIndividual image={REACT} title="REACT NATIVE" />
+          <SkillIndividual image={Express} title="EXPRESS" />
+          <SkillIndividual image={Node} title="NODE JS" />
+          <SkillIndividual image={Mongodb} title="MONGODB" />
+          <SkillIndividual image={firebase} title="FIREBASE" />
         </div>
       </div>
     </div>
