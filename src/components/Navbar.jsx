@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" flex justify-between items-center h-24 m-w-[1240px] mx-auto px-4">
+    <div className=" flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
       <h1 className="text-3xl w-full text-[#00df9a] cursor-pointer">
         ROHIT LUDBE.
       </h1>
