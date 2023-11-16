@@ -6,6 +6,7 @@ import Slack from "../assests/slack.png";
 import Calorie1 from "../assests/Screenshot_1650537404.png";
 import Calorie2 from "../assests/Screenshot_1650537486.png";
 import Calorie3 from "../assests/Screenshot_1650537414.png";
+import Newws from "../assests/Newwws.png"
 import SlackDark from "../assests/slack-dark.png";
 
 import SingleProject from "./SingleProject";
@@ -45,12 +46,23 @@ const Projects = () => {
       />
       <hr className="border h-0 m-20" />
       <SingleProject
+        title={"News App"}
+        keySkills={"Remix"}
+        link={"https://news-app-remix.vercel.app/"}
+        img={Newws}
+        descr={
+          " Movies are fetched from themoviedb api. User can search movies and realtime suggestions will be made. User can add, update, remove movies in Watched or Watchlist section."
+        }
+        subH={"WEBAPP"}
+      />
+      <hr className="border h-0 m-20" />
+      <SingleProject
         title={"Movie watchlist"}
         keySkills={" ReactJS, React-router-dom, Context Api, themoviedb Api."}
         link={"https://peaceful-shaw-30a67e.netlify.app/"}
         img={WatchList}
         descr={
-          " Movies are fetched from themoviedb api. User can search movies and realtime suggestions will be made. User can add, update, remove movies in Watched or Watchlist section."
+          "Showcasing my Remix.js skills: A sleek, responsive website for real-time news updates. Stay informed with the latest stories in a user-friendly interface."
         }
         subH={"WEBAPP"}
       />
