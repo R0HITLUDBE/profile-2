@@ -51,7 +51,7 @@ const Projects = () => {
         link={"https://news-app-remix.vercel.app/"}
         img={Newws}
         descr={
-          " Movies are fetched from themoviedb api. User can search movies and realtime suggestions will be made. User can add, update, remove movies in Watched or Watchlist section."
+          "Showcasing my Remix.js skills: A sleek, responsive website for real-time news updates. Stay informed with the latest stories in a user-friendly interface."
         }
         subH={"WEBAPP"}
       />
@@ -62,7 +62,7 @@ const Projects = () => {
         link={"https://peaceful-shaw-30a67e.netlify.app/"}
         img={WatchList}
         descr={
-          "Showcasing my Remix.js skills: A sleek, responsive website for real-time news updates. Stay informed with the latest stories in a user-friendly interface."
+          "Movies are fetched from themoviedb api. User can search movies and realtime suggestions will be made. User can add, update, remove movies in Watched or Watchlist section."
         }
         subH={"WEBAPP"}
       />
