@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+![watchlist](https://github.com/R0HITLUDBE/profile-2/assets/55944115/1f500531-bd38-459b-98bf-cf34d38025e0)
+![undraw_programmer_re_owql](https://github.com/R0HITLUDBE/profile-2/assets/55944115/bbd80af1-b3a9-483c-a223-65fc687f0f7c)
+![slack](https://github.com/R0HITLUDBE/profile-2/assets/55944115/783f5837-0a63-4e53-8d16-2a903c7657cd)
+![slack-dark](https://github.com/R0HITLUDBE/profile-2/assets/55944115/5e071159-c33e-4f3b-a8b1-585a8216b498)
+![Screenshot_1650537486](https://github.com/R0HITLUDBE/profile-2/assets/55944115/43f24bb0-ebb6-49c2-891a-5f60746742da)
+![Screenshot_1650537414](https://github.com/R0HITLUDBE/profile-2/assets/55944115/d4c548ac-6cde-4421-8cbc-3af1b8e9edf5)
+![Screenshot_1650537404](https://github.com/R0HITLUDBE/profile-2/assets/55944115/f7eef106-effe-46fa-b6d1-8583caa67963)
+[RohitLudbe_Resume1.pdf](https://github.com/R0HITLUDBE/profile-2/files/13403120/RohitLudbe_Resume1.pdf)
+![price_prediction](https://github.com/R0HITLUDBE/profile-2/assets/55944115/071448ae-12cc-4689-ae59-7b06cd791f8d)
+![nodejs](https://github.com/R0HITLUDBE/profile-2/assets/55944115/e8f61aab-9e9b-4eca-8294-40bbe068e6af)
+![nextjs](https://github.com/R0HITLUDBE/profile-2/assets/55944115/16b796ff-f6c2-476f-a1e6-523244482a91)
+![Newwws](https://github.com/R0HITLUDBE/profile-2/assets/55944115/7b80ea5f-5aaf-4ab2-a4e6-55074edbb639)
+![mongodb](https://github.com/R0HITLUDBE/profile-2/assets/55944115/88458924-bbe4-4969-8835-060a67e9e79c)
+![js](https://github.com/R0HITLUDBE/profile-2/assets/55944115/36d25f07-de3e-40b3-ad3e-803f29aab622)
+![icons8-title-64](https://github.com/R0HITLUDBE/profile-2/assets/55944115/300bbf6f-468c-4c57-8336-82df88974d3f)
+![icons8-backend-96](https://github.com/R0HITLUDBE/profile-2/assets/55944115/c0551139-48c4-49f6-8e95-2df3521f80bd)
+![Hulu](https://github.com/R0HITLUDBE/profile-2/assets/55944115/e3667118-f48c-4f78-9acc-442a9cb09f8f)
+![html-5](https://github.com/R0HITLUDBE/profile-2/assets/55944115/dbf16e43-1cde-4b47-86de-7547bb5e479e)
+![google-firebase](https://github.com/R0HITLUDBE/profile-2/assets/55944115/30215723-baf3-4d23-8609-5d3fd0e6b05c)
+![express](https://github.com/R0HITLUDBE/profile-2/assets/55944115/ca0566f4-235f-4257-9a4d-b5dacbf62eaa)
+![css-3](https://github.com/R0HITLUDBE/profile-2/assets/55944115/ebd0d19e-afa3-43fc-8cff-b8bb63329752)
+![atom-symbol](https://github.com/R0HITLUDBE/profile-2/assets/55944115/dc9120d3-0964-4f8d-945f-0a57d1eb3705)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+https://github.com/R0HITLUDBE/profile-2/assets/55944115/bde33ed8-904c-43c2-81e9-4ffc19cb98f1
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
